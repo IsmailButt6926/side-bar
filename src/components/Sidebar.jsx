@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import { BsFillArrowLeftSquareFill, BsSearch, BsChevronDown } from "react-icons/bs";
 import { RiDashboardFill } from "react-icons/ri";
@@ -8,6 +10,7 @@ const Sidebar = () => {
     const [open, setOpen] = useState(true)
 
     const [openSubMenu, setOpenSubMenu] = useState(false)
+    
     const Menus = [
         { title: "Dashboard" },
         { title: "Pages" },
